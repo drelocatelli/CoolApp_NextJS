@@ -1,0 +1,1 @@
+# CoolApp_NextJS
