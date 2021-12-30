@@ -13,6 +13,8 @@ export default function Header() {
                                 <Nav.Link href="/">home page</Nav.Link>
                                 <Nav.Link href="/about">about us</Nav.Link>
                                 <Nav.Link href="/people">people</Nav.Link>
+                                <Nav.Link href="/estatico">repositories</Nav.Link>
+                                
                             </Nav>
                         </Navbar.Collapse>
                     </div>
