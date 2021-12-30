@@ -1,7 +1,7 @@
 import Header from '../src/components/Header';
 import PageView from '../src/components/PageView';
 
-export function getStaticProps() {
+export function getServerSideProps() {
     console.log('Gerando props....');
     return {
         props: {
@@ -10,7 +10,7 @@ export function getStaticProps() {
     }
 }
 
-export default function estatico(props) {
+export default function dinamico(props) {
     return(
         <>
             <Header />
