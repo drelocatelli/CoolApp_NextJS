@@ -14,7 +14,7 @@ export default function estatico(props) {
     return(
         <>
             <Header />
-            <PageView title='Dinâmico'>
+            <PageView title='Static'>
                 <p>Número: {props.numero}</p>
             </PageView>
         </>

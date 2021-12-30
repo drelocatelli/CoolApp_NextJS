@@ -14,7 +14,7 @@ export default function dinamico(props) {
     return(
         <>
             <Header />
-            <PageView title='Dinâmico'>
+            <PageView title='Dynamic'>
                 <p>Número: {props.numero}</p>
             </PageView>
         </>
